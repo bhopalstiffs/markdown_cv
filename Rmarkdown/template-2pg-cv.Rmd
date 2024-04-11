@@ -2,19 +2,20 @@
 output: 
   pdf_document:
     latex_engine: pdflatex
-    template: rap-latex-cv.tex
+    template: ath-latex-cv.tex
 geometry: margin=1in
 
 title: "CV"
-author: Grace Brewster Murray Hopper
+author: Alan T Hitch
 #orcid: "orcid.org/0000-0002-9577-6885"
-jobtitle: "Computer Scientist & United States Navy Rear Admiral"
-address: "Address · Arlington · VA 22205"
+jobtitle: "Project Scientist"
+address: "University of Calfornia at Davis - Department of Wildlife, Fish and Conservation Biology"
+address2: "Museum of Fish and Wildlife Biology"
 fontawesome: yes
-email: FLOW-MATIC@cobol
-github: hopper
+email: athitch@ucdavis.edu
+github: bhopalstiffs
 #phone: "+1 555 5555"
-web: 'wikipedia.org/wiki/Grace_Hopper'
+web: 'mwfb.ucdavis.edu/staff/alan-hitch'
 updated: yes
 
 keywords: RMarkdown, academic CV, template
@@ -28,77 +29,107 @@ urlcolor: blue
 
 # EDUCATION
 
-*Yale University*, Ph.D. Mathematics \hfill 1934
+*Auburn University*, Ph.D. Forestry and Wildlife Biology \hfill 2013 
 
-*Yale University*, M.S. Mathematics \hfill 1930
+*University of Louisiana at Lafayette*, M.S. Biology \hfill 2006
 
-*Vassar College*, B.S. Mathematics & Physics \hfill 1928
+*University of California at Davis*, B.S. Wildlife Fish and Conservation Biology \hfill 2001
 
 # EMPLOYMENT
 
-*United States Naval Reserve:*
+*University of California at Davis - Museum of Wildlife and Fish Biology*
 
- > Naval Reserve Midshipmen's School \hfill 1943--1944
-
-*Bureau of Ships Computation Project (Harvard):*
-
- > Research Fellow \hfill 1945-1949
- > Lieutenant, Jr Grade \hfill 1944
+  \hspace*{5mm} Project Scientist \hfill 2009-present
  
-*Eckert–Mauchly Computer Corporation:*
+*Harrisburg University of Science and Technology*
 
- >  Senior Mathematician \hfill 1949-–1967
+  \hspace*{5mm} Corporate Faculty \hfill 2016-present
 
-*Navy Programming Languages Group, Navy Office of Information Systems Planning:*
+*Stillwater Sciences*
 
- > Director (and promoted to Captain) \hfill 1967--1977  
+  \hspace*{5mm} Senior Ecologist \hfill 2014-present  
 
 # TEACHING
 
-*Associate Professor, Mathematics, Vassar* \hfill 1931--1941
+*Corporate Faculty, Data Analytics, Harrisburg University of Science and Technology* \hfill 2016-present
 
-> Teach students about math, began career in programming and largely developed design and implementation of a computer compiler.
-  
-*Director, Navy Programming Languages Group* \hfill 1967--1977
+> ANLY 506 - Exploratory Data Analysis (MS)
 
-> She developed validation software for COBOL and its compiler as part of a COBOL standardization program for the entire Navy. Hopper advocated for the Defense Department to replace large, centralized systems with networks of small, distributed computers. Any user on any computer node could access common databases located on the network. She developed the implementation of standards for testing computer systems and components, most significantly for early programming languages such as FORTRAN and COBOL. The Navy tests for conformance to these standards led to significant convergence among the programming language dialects of the major computer vendors. In the 1980s, these tests (and their official administration) were assumed by the National Bureau of Standards (NBS), known today as the National Institute of Standards and Technology (NIST). (Source: https://en.wikipedia.org/wiki/Grace_Hopper)
+> ANLY 512 - Data Visualization (MS)
 
-# PUBLICATIONS
+> ANLY 505 - Data Simulation, Bayesian Modeling and Inference (MS)
+
+> ANLY 705 - Applied Predictive Modeling (PhD)
+
+# CONSULTANCIES
+
+## **Project - West African Center for Research in Emerging Infectious Diseases (WAC-EID)**
+
+> Conducted field training for bat sampling methods and species identification
+
+> Conducted a training workshop on acoustic sampling and analysis of West African bat call data
+
+## **Project - A Hospital- and Community-based Investigation of Rickettsial Diseases, Scrub Typhus, and Q Fever in Vietnam**
+
+> Conducted a GIS, Occupancy Modeling, and R workshop to support community-based study
+
+> Advised on KAP survey questionnaire
+
+## **Project - Investigating the risk of human disease from parasite of small mammals and bats in Cambodia**
+
+> Conducted a training workshop on GIS, Occupancy Modeling, Ecological Study Design, and R to develop habitat-relationship models of host distributions
+
+> Conducted field training for bat and rodent sampling methods and species identification 
+
+# SELECTED PUBLICATIONS
 
 ## **Journal Articles**
 
-G. M. Hopper and O. Ore. 1934. "*New types of irreducibility criteria*." Bull. Amer. Math. Soc. 40 (216). 
+Mukhit B. Orynbayev, **Alan T. Hitch**, Aslan A. Kerimbayev, Raikhan K. Nissanova, Kulyaisan T. Sultankulova, Rashida A. Rystayeva,
+Zamira D. Omarova, Markhabat M. Kassenov, Elmira T. Tailakova, Gavin J. Smith, Ian H. Mendenhall.  2022. "*Serological exposure in Bactrian and dromedary camles in Kazakhstan to a MERS or MERS-like coronavirus*." Transboundary and Emerging Diseases (In press)
 
+Neil M. Furey, Vuong T. Tu, **Alan T. Hitch**, Awatsaya Pimsai, Chor Kimashalen, Buor Vuthy, Yim Raksmey, Chheang Sarak, Sophie A. Borthwick, Lena Ch'Ng, Say Sinly, Gabor Csorba, Ith Saveng, Gavin J. Smith, Cheheang Dany, and Ian H. Mendenhall. 2021. "*First records of seemingly rare bats (Mammalia: Chiroptera) in Cambodia, with a revised checklist of species for the country*." Acta Chiropterologica 23 (2)
 
+Kyle N. Armstrong, Sylvia Clarke, Aimee Linke, Annette Scanlon, Philip Roetman, Jacqui Wilson, **Alan T. Hitch**, and Steven C. Donnellan. 2021. "*Citizen science implements the first intensive acoustics-based survey of insectivorous bat species across the Murray-Darling Basin of South Australia*." Australian Journal of Zoology 68 (6).
 
-## **Books**
+Nicolas Nesi, Georgia Tsagkogeorga, Susan M. Tsang, Violaine Nicolas, Aude Lalis, Annetta T. Scanlon, Silke A Riesle-Sbarbaro, Sigit Wiantoro, **Alan T Hitch**, Javier Juste, Corinna A Pinzari, Frank Bonaccorso, Christopher M. Todd, Burton K. Lim, Nancy B. Simmons, Michael R. McGowen, and Stephen Rossiter.  2021. "*Interrogating Phylogenetic Discordance Resolves deep splits in the rapid radiation of Old World Fruit bats (Chiroptera: Pteropodidae)*." Systematic Biology 70 (6)
 
-Beyer, Kurt W. 2009. *Grace Hopper and the Invention of the Information Age*. Cambridge, Massachusetts: MIT Press. ISBN 978-0-262-01310-9.
+Dolyce HW. Low, **Alan T. Hitch**, Maggie M. Skiles, Sophie A. Borthwick, Erica S. Neves, Zong Xian Lim, Benjamin P.Y-H Lee, Yvonne CF Su, Gavin JD Smith, and Ian H. Mendenhall. 2021. "*Host specificity of Hepatocystis infection in short-nosed fruit bats (Cynopterus brachyotis) in Singapore*." International Journal for Parasitology: Parasites and Wildlife 15 
 
-Williams, Kathleen Broome. 2004. *Grace Hopper: Admiral of the Cyber Sea* (1st ed.). Annapolis, Maryland: Naval Institute Press. ISBN 978-1-55750-952-9.
+Julie Broken-Brow, **Alan T. Hitch**, Kyle N. Armstrong, Luke K.-P. Leung. 2019. "*Effect of fire on insectivorous bat activity in northern Australia: does fire intensity matter on a local scale?*." Australian Journal of Zoology 67 (6)
 
-# PUBLIC MEDIA
+Zong Xian Lim, **Alan T. Hitch**, Benjamin P.Y-H. Lee, Dolyce HW Low, Erica S. Neves, Sophie A. Borthwick, Gavin JD Smith, and Ian H. Mendenhall. 2020. "*Ecology of bat flies in Singapore: A study on the diversity, infestation bias and host specificity (Diptera: Nycteribiidae)*." International Journal for Parasitology: Parasites and Wildlife 12
 
-"Nano-seconds" lecture by Grace Hopper. https://www.youtube.com/watch?v=JEpsKnWZrJ8
+Michael N. Davis, Thomas E. McMahon, Molly AH Webb, Jason E. IIgen, **Alan T. Hitch**, Matthew E. Jaeger, and Kyle E. Cutting. 2019. "*Winter survival, habitat use, and hypoxia tolerance of Montana Arctic Grayling in a winterkill-prone lake*." Transactions of the American Fisheries Society 148 (4)
 
+Sigit Wiantoro, **Alan T. Hitch**, Irene E. Engilis, Hendra Gunawan, Andrew E. Engilis Jr. 2017. "*Bats (Chiroptera) recorded in the lowland of Southeast Sulawesi, Indonesia with notes on taxonomic status and significant range extensions*." Mammalia 81 (4)
 
-# AWARDS
+Kevin M. Purcell, **Alan T. Hitch**, Shannon B. Martin, Paul K. Klerks, Paul L Leberg. 2012. "*The role of genetic structure in the adaptive divergence of populations experiencing saltwater intrusion due to relative sea-level rise*." Journal of Evolutionary Biology 25 (12)
 
-**1964**  *Society of Women Engineers Achievement Award*, the Society’s highest honor, “In recognition of her significant contributions to the burgeoning computer industry as an engineering manager and originator of automatic programming systems.”
+**Alan T. Hitch**, Kevin M. Purcell, Shannon B. Martin, Paul K. Klerks, Paul L. Leberg. 2011. "*Interactions of salinity, marsh fragmentation and submerged aquatic vegetation on resident nekton assemblages of coastal marsh ponds*." Estuaries and Coasts 34 (3)
 
-**1969**  *Data Processing Management Association Man of the Year* (now called the Distinguished Information Sciences Award)
+**Alan T. Hitch**, Paul L. Leberg. 2007. "*Breeding distributions of North American bird species moving north as a result of climate change*." Conservation Biology 21 (2)
 
-**1973** *Distinguished Fellow of the British Computer Society*. First American and the first woman of any nationality to be given award.
+<!-- # TECHNICAL REPORTS -->
 
-**1982** *American Association of University Women Achievement Award*
+<!-- Maia Singer, **Alan T. Hitch**. 2016. Water quality monitoring report: Sacramento Municipal Utilities District, Hydro License Implementation, Upper American River Project, FERC Project No. 2101. 58 p. -->
 
-**1987** *Computer History Museum Fellow Award Recipient* First to receive this award, for contributions to the development of programming languages, for standardization efforts, and for lifelong naval service.
+<!-- Lauren Dusek, Paul Heady, **Alan T. Hitch**.  2015. Draft Technical Memorandum: Pacific Gas & Electric Co., Special Status Bat Species (RTE-S4); Bucks Creek Relicensing Project - Special-status bat species on the project area. 81 p. -->
 
-**1991**: *National Medal of Technology*
+# SELECTED PRESENTATIONS
 
-**1996**: *USS Hopper (DDG-70) was launched*. Nicknamed Amazing Grace, it is on a very short list of U.S. military vessels named after women.
+**Alan T. Hitch**, Gavin J. Smith, Ian H. Mendenhall, Sophie A. Borthwick, Dany Chheang, Sorn San, Neil M. Furey, and Awatsaya Pimsai. 2019. "*Investigating the risk of human disease from parasites of small mammals and bats in Cambodia*." 2^nd^ Asia Pacific Rickettsia Conference, Chiang Rai, Thailand
 
-**2009**: The Department of Energy's National Energy Research Scientific Computing Center named its flagship system "Hopper"
+**Alan T. Hitch**, Gavin J. Smith, Ian H. Mendenall, Sophie A. Borthwick, Dany Chheang, Sorn San, Neil M. Furey, and Awatsaya Pimsai. 2019. "*Investigating the risk of human disease from parasites of small mammals and bats in Cambodia*." Biological Threat Reduction Program - Science Program Review, Warsaw, Poland
 
-**2016**: Posthumously awarded a *Presidential Medal of Freedom* for her accomplishments in the field of computer science
+**Alan T. Hitch**, Gavin J. Smith, Ian H. Mendenhall, Sophie A. Borthwick, Dany Chheang, Neil M. Furey. 2019. "*Modelling distributions and habitat relationships of bats in Cambodia using multiple survey methods within an occupancy framework on a country-wide scale*." 18^th^ International Bat Research Conference, Phuket, Thailand
+
+**Alan T. Hitch**, Gavin J. Smith, Ian H. Mendenhall, Kyle A. Armstrong, Dany Chheang, and Neil M. Furey. 2018. "*Analyzing large bat acoustic data sets with automation and visual checking in Southeast Asia with SZApp software*." 4^th^ International Southeast Asia Bat Research Conference, Bacolod, Philippines
+
+# SERVICE
+
+## **Reviewer**
+
+International Journal of Biometereology, Scientific Reports, Arctic, Conservation Biology, Hydrobiologia, Methods in Ecology and Evolution, Estuaries and Coasts, Climatic Change, Bat Research and Conservation, Acta Chiropterologica
+
 
